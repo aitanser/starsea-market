@@ -1,0 +1,142 @@
+{
+  "plugins": {
+    "filemgr": {
+      "name": "文件管理器",
+      "version": "1.0",
+      "desc": "管理虚拟文件系统，支持树状浏览、搜索、批量操作",
+      "type": "app",
+      "command": "filemgr",
+      "entry": "file_manager_menu",
+      "file": "file_manager.py",
+      "signature": "de7cb36e5238706057ee0b96d35c67c6351236f0eb29004382b1d3587b9a5f85"
+    },
+    "editor": {
+      "name": "文本编辑器",
+      "version": "1.0",
+      "desc": "编辑虚拟/真实文件，支持插入、删除、替换行",
+      "type": "app",
+      "command": "editor",
+      "entry": "text_editor_menu",
+      "file": "text_editor.py",
+      "signature": "585ab62401a8029fccee18aa24c91670f2c38e3cbd96b5205943092997e681e7"
+    },
+    "gallery": {
+      "name": "图库",
+      "version": "1.0",
+      "desc": "ASCII 图片查看、幻灯片播放",
+      "type": "app",
+      "command": "gallery",
+      "entry": "gallery_menu",
+      "file": "image_viewer.py",
+      "signature": "3b1a5723f8c42d2a495db3968c4d19818082ee8b9f48027c948fb92c52c9ff54"
+    },
+    "syswatch": {
+      "name": "系统监视器",
+      "version": "1.0",
+      "desc": "实时资源监控与进程管理",
+      "type": "app",
+      "command": "syswatch",
+      "entry": "watch_menu",
+      "file": "system_watcher.py",
+      "signature": "eed9edae21eb7d77871f008e418fe262a609c908a61a7fcf5e2cea3302e6c7e6"
+    },
+    "calendar": {
+      "name": "日历与提醒",
+      "version": "1.0",
+      "desc": "查看日历、添加事件、今日提醒",
+      "type": "app",
+      "command": "calendar",
+      "entry": "calendar_menu",
+      "file": "calendar.py",
+      "signature": "59a5fb6c7c348f806a720797c45ed0ec0f9e2c82aa2711dbc99dbc7d95f0045f"
+    },
+    "backupwiz": {
+      "name": "备份还原向导",
+      "version": "1.0",
+      "desc": "交互式还原点与版本化备份",
+      "type": "app",
+      "command": "backupwiz",
+      "entry": "backup_wizard_menu",
+      "file": "backup_wizard.py",
+      "signature": "c050acc1fb7ec1f29bcf238b6bbcf700bc556b710c6ab29ba30bfbf1b3da53e1"
+    },
+    "calcapp": {
+      "name": "科学计算器",
+      "version": "1.0",
+      "desc": "支持基本运算、历史记录、单位转换",
+      "type": "app",
+      "command": "calcapp",
+      "entry": "calculator_menu",
+      "file": "calculator.py",
+      "signature": "9d37ffcf8c47832c39fa4c162b43de0fc048586bc9b8f1952d165e61f757f9c5"
+    },
+    "note": {
+      "name": "星海便签",
+      "version": "1.0",
+      "desc": "快速笔记，基于 VFS 持久化",
+      "type": "app",
+      "command": "note",
+      "entry": "note_menu",
+      "file": "note.py",
+      "signature": "967164b80dd7c076a189ee499c59ac9fe50c68c81967ab65e3ab1e05a5afdd3a"
+    },
+    "dict": {
+      "name": "星海词典",
+      "version": "1.0",
+      "desc": "内置 300+ 技术单词",
+      "type": "app",
+      "command": "dict",
+      "entry": "dictionary_menu",
+      "file": "dictionary.py",
+      "signature": "2d308fc7623f8aa64703befb87170e6cb03f06660477e0d71c9d33ac61237b48"
+    },
+    "hello": {
+      "name": "Hello World",
+      "version": "1.0",
+      "desc": "一个简单的问候插件",
+      "type": "plugin",
+      "file": "hello.py",
+      "signature": "5ed4b8a6337a20f360eda5e22120ddf70efc83fb121128e3bf5052dea8e5c176"
+    },
+    "disk_check": {
+      "name": "磁盘检查",
+      "version": "1.2",
+      "desc": "检查当前目录磁盘使用情况",
+      "type": "plugin",
+      "file": "disk_check.py",
+      "signature": "请使用 compute_signature.py 计算后填入"
+    },
+    "password_gen": {
+      "name": "密码生成器",
+      "version": "1.0",
+      "desc": "生成随机高强度密码",
+      "type": "plugin",
+      "file": "password_gen.py",
+      "signature": "2f5148692c147c8781b91cf51554270ddae3e8b58d561f37b3f5607d17cf1b85"
+    },
+    "sysinfo_plus": {
+      "name": "增强系统信息",
+      "version": "1.0",
+      "desc": "显示操作系统、磁盘、网络等信息",
+      "type": "plugin",
+      "file": "sysinfo_plus.py",
+      "signature": "7e9909808fc445a21baf868f055460ef2012720a1f157e2cf51fcea3df58d2b0"
+    },
+    "joke_plugin": {
+      "name": "随机笑话",
+      "version": "1.0",
+      "desc": "50+ 条程序员笑话",
+      "type": "plugin",
+      "file": "joke_plugin.py",
+      "signature": "56fc12e51ac7d864fc754162f26ef803ccf7ed1f7e437b1178b9ab150970ddc3"
+    },
+    "quote_plugin": {
+      "name": "名言警句",
+      "version": "1.0",
+      "desc": "50+ 条名人名言",
+      "type": "plugin",
+      "file": "quote_plugin.py",
+      "signature": "9c5f7dd369db0c273b5bc321166ea99bf5b1050e917fb1c5cce9ceb0ca10eee6"
+    }
+  }
+}
