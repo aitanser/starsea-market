@@ -90,22 +90,6 @@
       "file": "dictionary.py",
       "signature": "2d308fc7623f8aa64703befb87170e6cb03f06660477e0d71c9d33ac61237b48"
     },
-    "hello": {
-      "name": "Hello World",
-      "version": "1.0",
-      "desc": "一个简单的问候插件",
-      "type": "plugin",
-      "file": "hello.py",
-      "signature": "5ed4b8a6337a20f360eda5e22120ddf70efc83fb121128e3bf5052dea8e5c176"
-    },
-    "disk_check": {
-      "name": "磁盘检查",
-      "version": "1.2",
-      "desc": "检查当前目录磁盘使用情况",
-      "type": "plugin",
-      "file": "disk_check.py",
-      "signature": "请使用 compute_signature.py 计算后填入"
-    },
     "password_gen": {
       "name": "密码生成器",
       "version": "1.0",
