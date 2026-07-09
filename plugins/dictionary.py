@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-# dictionary.py - 星海词典（内置 300+ 技术单词）
+# dictionary.py
+# 作者: 鸿渚 | 蓝域星河
+# 版权: © 2026 鸿渚 - 蓝域星河. All rights reserved.
+
 WORDS = {
     "quantum": "量子",
     "star": "星星",

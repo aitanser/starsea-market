@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-# backup_wizard.py - 备份还原向导
+# backup_wizard.py
+# 作者: 鸿渚 | 蓝域星河
+# 版权: © 2026 鸿渚 - 蓝域星河. All rights reserved.
+
 import os
 import shutil
 from system.restore_points import create_restore_point, list_restore_points, restore_to_point

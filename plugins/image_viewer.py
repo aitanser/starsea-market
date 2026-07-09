@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-# image_viewer.py - 星海图库（ASCII 图片查看、幻灯片）
+# image_viewer.py
+# 作者: 鸿渚 | 蓝域星河
+# 版权: © 2026 鸿渚 - 蓝域星河. All rights reserved.
+
 import os
 import time
 try:

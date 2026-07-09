@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-# calendar.py - 日历与提醒（基于 SDK 持久化事件）
+# calendar.py
+# 作者: 鸿渚 | 蓝域星河
+# 版权: © 2026 鸿渚 - 蓝域星河. All rights reserved.
+
 from datetime import datetime
 import calendar as cal_module
 from starsea_sdk.errors import ConfigError

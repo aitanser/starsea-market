@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-# calculator.py - 星海科学计算器
+# calculator.py
+# 作者: 鸿渚 | 蓝域星河
+# 版权: © 2026 鸿渚 - 蓝域星河. All rights reserved.
+
 import math
 
 HISTORY = []

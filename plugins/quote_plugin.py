@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-# quote_plugin.py - 名言警句插件
+# quote_plugin.py
+# 作者: 鸿渚 | 蓝域星河
+# 版权: © 2026 鸿渚 - 蓝域星河. All rights reserved.
+
 import random
 
 QUOTES = [

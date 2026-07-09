@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-# text_editor.py - 星海文本编辑器（基于 SDK 虚拟文件）
+# text_editor.py
+# 作者: 鸿渚 | 蓝域星河
+# 版权: © 2026 鸿渚 - 蓝域星河. All rights reserved.
+
 from starsea_sdk.errors import ConfigError
 
 def text_editor_menu(client, config_path):

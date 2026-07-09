@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-# note.py - 星海便签（基于 SDK VFS 持久化）
+# note.py
+# 作者: 鸿渚 | 蓝域星河
+# 版权: © 2026 鸿渚 - 蓝域星河. All rights reserved.
+
 from starsea_sdk.errors import ConfigError
 
 def note_menu(client, config_path):

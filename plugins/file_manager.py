@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-# file_manager.py - 星海量子文件管理器（基于SDK）
+# file_manager.py
+# 作者: 鸿渚 | 蓝域星河
+# 版权: © 2026 鸿渚 - 蓝域星河. All rights reserved.
+
 from starsea_sdk.errors import ConfigError
 
 def file_manager_menu(client, config_path):

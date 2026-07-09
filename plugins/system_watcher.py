@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-# system_watcher.py - 系统监视器（实时 CPU/内存/进程）
+# system_watcher.py
+# 作者: 鸿渚 | 蓝域星河
+# 版权: © 2026 鸿渚 - 蓝域星河. All rights reserved.
+
 import os
 import time
 import threading
