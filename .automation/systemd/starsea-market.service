@@ -1,0 +1,15 @@
+[Unit]
+Description=星海市场 Webhook 服务
+After=network.target
+
+[Service]
+Type=simple
+User=starsea
+WorkingDirectory=/path/to/starsea-market
+ExecStart=/usr/bin/python3 webhook_server.py
+Restart=always
+RestartSec=10
+Environment="WEBHOOK_SECRET=your-secret-here"
+
+[Install]
+WantedBy=multi-user.target
