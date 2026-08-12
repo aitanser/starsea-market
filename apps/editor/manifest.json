@@ -1,0 +1,20 @@
+{
+  "id": "editor",
+  "name": "文本编辑器",
+  "version": "1.0",
+  "type": "app",
+  "description": "编辑虚拟/真实文件，支持插入、删除、替换行",
+  "entry": "text_editor_menu",
+  "file": "text_editor.py",
+  "signature": "",
+  "compatibility": {
+    "min_starsea_version": "1.0.0",
+    "max_starsea_version": "2.x.x"
+  },
+  "author": "蓝域星河",
+  "license": "专有许可证",
+  "icon": "edit",
+  "categories": [
+    "办公"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "filemgr",
+  "name": "文件管理器",
+  "version": "1.0",
+  "type": "app",
+  "description": "管理虚拟文件系统，支持树状浏览、搜索、批量操作",
+  "entry": "file_manager_menu",
+  "file": "file_manager.py",
+  "signature": "",
+  "compatibility": {
+    "min_starsea_version": "1.0.0",
+    "max_starsea_version": "2.x.x"
+  },
+  "author": "蓝域星河",
+  "license": "专有许可证",
+  "icon": "folder",
+  "categories": [
+    "系统工具"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "joke_plugin",
+  "name": "随机笑话",
+  "version": "1.0",
+  "type": "plugin",
+  "description": "50+ 条程序员笑话",
+  "entry": "",
+  "file": "joke_plugin.py",
+  "signature": "",
+  "compatibility": {
+    "min_starsea_version": "1.0.0",
+    "max_starsea_version": "2.x.x"
+  },
+  "author": "蓝域星河",
+  "license": "专有许可证"
+}

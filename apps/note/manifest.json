@@ -1,0 +1,20 @@
+{
+  "id": "note",
+  "name": "星海便签",
+  "version": "1.0",
+  "type": "app",
+  "description": "快速笔记，基于 VFS 持久化",
+  "entry": "note_menu",
+  "file": "note.py",
+  "signature": "",
+  "compatibility": {
+    "min_starsea_version": "1.0.0",
+    "max_starsea_version": "2.x.x"
+  },
+  "author": "蓝域星河",
+  "license": "专有许可证",
+  "icon": "note",
+  "categories": [
+    "办公"
+  ]
+}

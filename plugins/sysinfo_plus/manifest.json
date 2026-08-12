@@ -1,0 +1,16 @@
+{
+  "id": "sysinfo_plus",
+  "name": "增强系统信息",
+  "version": "1.0",
+  "type": "plugin",
+  "description": "显示操作系统、磁盘、网络等信息",
+  "entry": "",
+  "file": "sysinfo_plus.py",
+  "signature": "",
+  "compatibility": {
+    "min_starsea_version": "1.0.0",
+    "max_starsea_version": "2.x.x"
+  },
+  "author": "蓝域星河",
+  "license": "专有许可证"
+}

@@ -1,0 +1,306 @@
+{
+  "version": 2,
+  "generated": "2026-08-11T15:21:23.192168",
+  "total": 15,
+  "apps": [
+    {
+      "id": "backupwiz",
+      "name": "备份还原向导",
+      "version": "1.0",
+      "type": "app",
+      "description": "交互式还原点与版本化备份",
+      "entry": "backup_wizard_menu",
+      "file": "backup_wizard.py",
+      "signature": "",
+      "compatibility": {
+        "min_starsea_version": "1.0.0",
+        "max_starsea_version": "2.x.x"
+      },
+      "author": "蓝域星河",
+      "license": "专有许可证",
+      "icon": "backup",
+      "categories": [
+        "系统工具"
+      ],
+      "path": "apps\\backupwiz"
+    },
+    {
+      "id": "calcapp",
+      "name": "科学计算器",
+      "version": "1.0",
+      "type": "app",
+      "description": "支持基本运算、历史记录、单位转换",
+      "entry": "calculator_menu",
+      "file": "calculator.py",
+      "signature": "",
+      "compatibility": {
+        "min_starsea_version": "1.0.0",
+        "max_starsea_version": "2.x.x"
+      },
+      "author": "蓝域星河",
+      "license": "专有许可证",
+      "icon": "calculator",
+      "categories": [
+        "工具"
+      ],
+      "path": "apps\\calcapp"
+    },
+    {
+      "id": "calendar",
+      "name": "日历与提醒",
+      "version": "1.0",
+      "type": "app",
+      "description": "查看日历、添加事件、今日提醒",
+      "entry": "calendar_menu",
+      "file": "calendar.py",
+      "signature": "",
+      "compatibility": {
+        "min_starsea_version": "1.0.0",
+        "max_starsea_version": "2.x.x"
+      },
+      "author": "蓝域星河",
+      "license": "专有许可证",
+      "icon": "calendar",
+      "categories": [
+        "办公"
+      ],
+      "path": "apps\\calendar"
+    },
+    {
+      "id": "dict",
+      "name": "星海词典",
+      "version": "1.0",
+      "type": "app",
+      "description": "内置 300+ 技术单词",
+      "entry": "dictionary_menu",
+      "file": "dictionary.py",
+      "signature": "",
+      "compatibility": {
+        "min_starsea_version": "1.0.0",
+        "max_starsea_version": "2.x.x"
+      },
+      "author": "蓝域星河",
+      "license": "专有许可证",
+      "icon": "book",
+      "categories": [
+        "教育"
+      ],
+      "path": "apps\\dict"
+    },
+    {
+      "id": "editor",
+      "name": "文本编辑器",
+      "version": "1.0",
+      "type": "app",
+      "description": "编辑虚拟/真实文件，支持插入、删除、替换行",
+      "entry": "text_editor_menu",
+      "file": "text_editor.py",
+      "signature": "",
+      "compatibility": {
+        "min_starsea_version": "1.0.0",
+        "max_starsea_version": "2.x.x"
+      },
+      "author": "蓝域星河",
+      "license": "专有许可证",
+      "icon": "edit",
+      "categories": [
+        "办公"
+      ],
+      "path": "apps\\editor"
+    },
+    {
+      "id": "filemgr",
+      "name": "文件管理器",
+      "version": "1.0",
+      "type": "app",
+      "description": "管理虚拟文件系统，支持树状浏览、搜索、批量操作",
+      "entry": "file_manager_menu",
+      "file": "file_manager.py",
+      "signature": "",
+      "compatibility": {
+        "min_starsea_version": "1.0.0",
+        "max_starsea_version": "2.x.x"
+      },
+      "author": "蓝域星河",
+      "license": "专有许可证",
+      "icon": "folder",
+      "categories": [
+        "系统工具"
+      ],
+      "path": "apps\\filemgr"
+    },
+    {
+      "id": "gallery",
+      "name": "图库",
+      "version": "1.0",
+      "type": "app",
+      "description": "ASCII 图片查看、幻灯片播放",
+      "entry": "gallery_menu",
+      "file": "image_viewer.py",
+      "signature": "",
+      "compatibility": {
+        "min_starsea_version": "1.0.0",
+        "max_starsea_version": "2.x.x"
+      },
+      "author": "蓝域星河",
+      "license": "专有许可证",
+      "icon": "image",
+      "categories": [
+        "娱乐"
+      ],
+      "path": "apps\\gallery"
+    },
+    {
+      "id": "note",
+      "name": "星海便签",
+      "version": "1.0",
+      "type": "app",
+      "description": "快速笔记，基于 VFS 持久化",
+      "entry": "note_menu",
+      "file": "note.py",
+      "signature": "",
+      "compatibility": {
+        "min_starsea_version": "1.0.0",
+        "max_starsea_version": "2.x.x"
+      },
+      "author": "蓝域星河",
+      "license": "专有许可证",
+      "icon": "note",
+      "categories": [
+        "办公"
+      ],
+      "path": "apps\\note"
+    },
+    {
+      "id": "syswatch",
+      "name": "系统监视器",
+      "version": "1.0",
+      "type": "app",
+      "description": "实时资源监控与进程管理",
+      "entry": "watch_menu",
+      "file": "system_watcher.py",
+      "signature": "",
+      "compatibility": {
+        "min_starsea_version": "1.0.0",
+        "max_starsea_version": "2.x.x"
+      },
+      "author": "蓝域星河",
+      "license": "专有许可证",
+      "icon": "monitor",
+      "categories": [
+        "系统工具"
+      ],
+      "path": "apps\\syswatch"
+    }
+  ],
+  "plugins": [
+    {
+      "id": "joke_plugin",
+      "name": "随机笑话",
+      "version": "1.0",
+      "type": "plugin",
+      "description": "50+ 条程序员笑话",
+      "entry": "",
+      "file": "joke_plugin.py",
+      "signature": "",
+      "compatibility": {
+        "min_starsea_version": "1.0.0",
+        "max_starsea_version": "2.x.x"
+      },
+      "author": "蓝域星河",
+      "license": "专有许可证",
+      "path": "plugins\\joke_plugin"
+    },
+    {
+      "id": "password_gen",
+      "name": "密码生成器",
+      "version": "1.0",
+      "type": "plugin",
+      "description": "生成随机高强度密码",
+      "entry": "",
+      "file": "password_gen.py",
+      "signature": "",
+      "compatibility": {
+        "min_starsea_version": "1.0.0",
+        "max_starsea_version": "2.x.x"
+      },
+      "author": "蓝域星河",
+      "license": "专有许可证",
+      "path": "plugins\\password_gen"
+    },
+    {
+      "id": "quote_plugin",
+      "name": "名言警句",
+      "version": "1.0",
+      "type": "plugin",
+      "description": "50+ 条名人名言",
+      "entry": "",
+      "file": "quote_plugin.py",
+      "signature": "",
+      "compatibility": {
+        "min_starsea_version": "1.0.0",
+        "max_starsea_version": "2.x.x"
+      },
+      "author": "蓝域星河",
+      "license": "专有许可证",
+      "path": "plugins\\quote_plugin"
+    },
+    {
+      "id": "sysinfo_plus",
+      "name": "增强系统信息",
+      "version": "1.0",
+      "type": "plugin",
+      "description": "显示操作系统、磁盘、网络等信息",
+      "entry": "",
+      "file": "sysinfo_plus.py",
+      "signature": "",
+      "compatibility": {
+        "min_starsea_version": "1.0.0",
+        "max_starsea_version": "2.x.x"
+      },
+      "author": "蓝域星河",
+      "license": "专有许可证",
+      "path": "plugins\\sysinfo_plus"
+    }
+  ],
+  "experimental": [
+    {
+      "id": "ai_completion",
+      "name": "AI 代码补全 (实验性)",
+      "version": "0.1.0",
+      "type": "experimental",
+      "description": "基于本地模型的代码补全建议，仅支持 Python",
+      "entry": "main:run",
+      "file": "ai_completion.zip",
+      "signature": "",
+      "compatibility": {
+        "min_starsea_version": "2.3.0",
+        "max_starsea_version": "2.x.x"
+      },
+      "author": "蓝域星河研究院",
+      "license": "内部实验许可证",
+      "stability": "preview",
+      "download_url": "https://your-repo/experimental/ai_completion.zip",
+      "path": "experimental\\ai_completion"
+    },
+    {
+      "id": "image_optimizer",
+      "name": "图片压缩器 (实验性)",
+      "version": "0.1.0",
+      "type": "experimental",
+      "description": "批量压缩图片，支持 JPG/PNG 格式",
+      "entry": "main:run",
+      "file": "image_optimizer.zip",
+      "signature": "",
+      "compatibility": {
+        "min_starsea_version": "2.3.0",
+        "max_starsea_version": "2.x.x"
+      },
+      "author": "蓝域星河研究院",
+      "license": "内部实验许可证",
+      "stability": "preview",
+      "download_url": "https://your-repo/experimental/image_optimizer.zip",
+      "path": "experimental\\image_optimizer"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "ai_completion",
+  "name": "AI 代码补全 (实验性)",
+  "version": "0.1.0",
+  "type": "experimental",
+  "description": "基于本地模型的代码补全建议，仅支持 Python",
+  "entry": "main:run",
+  "file": "ai_completion.zip",
+  "signature": "",
+  "compatibility": {
+    "min_starsea_version": "2.3.0",
+    "max_starsea_version": "2.x.x"
+  },
+  "author": "蓝域星河研究院",
+  "license": "内部实验许可证",
+  "stability": "preview",
+  "download_url": "https://your-repo/experimental/ai_completion.zip"
+}

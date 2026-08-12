@@ -1,0 +1,20 @@
+{
+  "id": "gallery",
+  "name": "图库",
+  "version": "1.0",
+  "type": "app",
+  "description": "ASCII 图片查看、幻灯片播放",
+  "entry": "gallery_menu",
+  "file": "image_viewer.py",
+  "signature": "",
+  "compatibility": {
+    "min_starsea_version": "1.0.0",
+    "max_starsea_version": "2.x.x"
+  },
+  "author": "蓝域星河",
+  "license": "专有许可证",
+  "icon": "image",
+  "categories": [
+    "娱乐"
+  ]
+}

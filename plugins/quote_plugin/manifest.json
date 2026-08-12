@@ -1,0 +1,16 @@
+{
+  "id": "quote_plugin",
+  "name": "名言警句",
+  "version": "1.0",
+  "type": "plugin",
+  "description": "50+ 条名人名言",
+  "entry": "",
+  "file": "quote_plugin.py",
+  "signature": "",
+  "compatibility": {
+    "min_starsea_version": "1.0.0",
+    "max_starsea_version": "2.x.x"
+  },
+  "author": "蓝域星河",
+  "license": "专有许可证"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "calendar",
+  "name": "日历与提醒",
+  "version": "1.0",
+  "type": "app",
+  "description": "查看日历、添加事件、今日提醒",
+  "entry": "calendar_menu",
+  "file": "calendar.py",
+  "signature": "",
+  "compatibility": {
+    "min_starsea_version": "1.0.0",
+    "max_starsea_version": "2.x.x"
+  },
+  "author": "蓝域星河",
+  "license": "专有许可证",
+  "icon": "calendar",
+  "categories": [
+    "办公"
+  ]
+}
