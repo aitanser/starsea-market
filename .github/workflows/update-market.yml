@@ -1,0 +1,45 @@
+name: 星海市场 · 自动更新
+
+on:
+  push:
+    paths:
+      - 'apps/**'
+      - 'plugins/**'
+      - 'experimental/**'
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: 设置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: 安装依赖
+        run: |
+          python -m pip install --upgrade pip
+
+      - name: 更新市场索引
+        run: |
+          python update_market.py --skip-automation
+
+      - name: 提交更改
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.json plugins.json apps/ plugins/ experimental/
+          git diff --staged --quiet || git commit -m "chore: 市场仓库自动更新 [skip ci]"
+          git push
