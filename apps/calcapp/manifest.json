@@ -5,7 +5,7 @@
   "type": "app",
   "description": "支持基本运算、历史记录、单位转换",
   "entry": "calculator_menu",
-  "file": "calculator.py",
+  "file": "apps/calcapp/apps/calcapp/calculator.py",
   "signature": "",
   "compatibility": {
     "min_starsea_version": "1.0.0",
@@ -16,5 +16,6 @@
   "icon": "calculator",
   "categories": [
     "工具"
-  ]
+  ],
+  "path": "apps/calcapp"
 }

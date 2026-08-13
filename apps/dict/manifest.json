@@ -5,7 +5,7 @@
   "type": "app",
   "description": "内置 300+ 技术单词",
   "entry": "dictionary_menu",
-  "file": "dictionary.py",
+  "file": "apps/dict/apps/dict/dictionary.py",
   "signature": "",
   "compatibility": {
     "min_starsea_version": "1.0.0",
@@ -16,5 +16,6 @@
   "icon": "book",
   "categories": [
     "教育"
-  ]
+  ],
+  "path": "apps/dict"
 }

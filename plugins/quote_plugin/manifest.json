@@ -5,12 +5,13 @@
   "type": "plugin",
   "description": "50+ 条名人名言",
   "entry": "",
-  "file": "quote_plugin.py",
+  "file": "plugins/quote_plugin/plugins/quote_plugin/quote_plugin.py",
   "signature": "",
   "compatibility": {
     "min_starsea_version": "1.0.0",
     "max_starsea_version": "2.x.x"
   },
   "author": "蓝域星河",
-  "license": "专有许可证"
+  "license": "专有许可证",
+  "path": "plugins/quote_plugin"
 }

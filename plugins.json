@@ -7,7 +7,7 @@
       "type": "app",
       "command": "backupwiz",
       "entry": "backup_wizard_menu",
-      "file": "backup_wizard.py",
+      "file": "apps/backupwiz/backup_wizard.py",
       "signature": ""
     },
     "calcapp": {
@@ -17,7 +17,7 @@
       "type": "app",
       "command": "calcapp",
       "entry": "calculator_menu",
-      "file": "calculator.py",
+      "file": "apps/calcapp/calculator.py",
       "signature": ""
     },
     "calendar": {
@@ -27,7 +27,7 @@
       "type": "app",
       "command": "calendar",
       "entry": "calendar_menu",
-      "file": "calendar.py",
+      "file": "apps/calendar/calendar.py",
       "signature": ""
     },
     "dict": {
@@ -37,7 +37,7 @@
       "type": "app",
       "command": "dict",
       "entry": "dictionary_menu",
-      "file": "dictionary.py",
+      "file": "apps/dict/dictionary.py",
       "signature": ""
     },
     "editor": {
@@ -47,7 +47,7 @@
       "type": "app",
       "command": "editor",
       "entry": "text_editor_menu",
-      "file": "text_editor.py",
+      "file": "apps/editor/text_editor.py",
       "signature": ""
     },
     "filemgr": {
@@ -57,7 +57,7 @@
       "type": "app",
       "command": "filemgr",
       "entry": "file_manager_menu",
-      "file": "file_manager.py",
+      "file": "apps/filemgr/file_manager.py",
       "signature": ""
     },
     "gallery": {
@@ -67,7 +67,7 @@
       "type": "app",
       "command": "gallery",
       "entry": "gallery_menu",
-      "file": "image_viewer.py",
+      "file": "apps/gallery/image_viewer.py",
       "signature": ""
     },
     "note": {
@@ -77,7 +77,7 @@
       "type": "app",
       "command": "note",
       "entry": "note_menu",
-      "file": "note.py",
+      "file": "apps/note/note.py",
       "signature": ""
     },
     "syswatch": {
@@ -87,7 +87,7 @@
       "type": "app",
       "command": "syswatch",
       "entry": "watch_menu",
-      "file": "system_watcher.py",
+      "file": "apps/syswatch/system_watcher.py",
       "signature": ""
     },
     "joke_plugin": {
@@ -95,7 +95,7 @@
       "version": "1.0",
       "desc": "50+ 条程序员笑话",
       "type": "plugin",
-      "file": "joke_plugin.py",
+      "file": "plugins/joke_plugin/joke_plugin.py",
       "signature": ""
     },
     "password_gen": {
@@ -103,7 +103,7 @@
       "version": "1.0",
       "desc": "生成随机高强度密码",
       "type": "plugin",
-      "file": "password_gen.py",
+      "file": "plugins/password_gen/password_gen.py",
       "signature": ""
     },
     "quote_plugin": {
@@ -111,7 +111,7 @@
       "version": "1.0",
       "desc": "50+ 条名人名言",
       "type": "plugin",
-      "file": "quote_plugin.py",
+      "file": "plugins/quote_plugin/quote_plugin.py",
       "signature": ""
     },
     "sysinfo_plus": {
@@ -119,8 +119,26 @@
       "version": "1.0",
       "desc": "显示操作系统、磁盘、网络等信息",
       "type": "plugin",
-      "file": "sysinfo_plus.py",
+      "file": "plugins/sysinfo_plus/sysinfo_plus.py",
       "signature": ""
+    },
+    "ai_completion": {
+      "name": "AI 代码补全 (实验性)",
+      "version": "0.1.0",
+      "desc": "基于本地模型的代码补全建议，仅支持 Python",
+      "type": "experimental",
+      "file": "ai_completion.zip",
+      "signature": "",
+      "stability": "preview"
+    },
+    "image_optimizer": {
+      "name": "图片压缩器 (实验性)",
+      "version": "0.1.0",
+      "desc": "批量压缩图片，支持 JPG/PNG 格式",
+      "type": "experimental",
+      "file": "image_optimizer.zip",
+      "signature": "",
+      "stability": "preview"
     }
   }
 }

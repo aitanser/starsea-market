@@ -5,7 +5,7 @@
   "type": "experimental",
   "description": "批量压缩图片，支持 JPG/PNG 格式",
   "entry": "main:run",
-  "file": "image_optimizer.zip",
+  "file": "experimental/image_optimizer/experimental/image_optimizer/image_optimizer.zip",
   "signature": "",
   "compatibility": {
     "min_starsea_version": "2.3.0",
@@ -14,5 +14,6 @@
   "author": "蓝域星河研究院",
   "license": "内部实验许可证",
   "stability": "preview",
-  "download_url": "https://your-repo/experimental/image_optimizer.zip"
+  "download_url": "https://your-repo/experimental/image_optimizer.zip",
+  "path": "experimental/image_optimizer"
 }

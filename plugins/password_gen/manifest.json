@@ -5,12 +5,13 @@
   "type": "plugin",
   "description": "生成随机高强度密码",
   "entry": "",
-  "file": "password_gen.py",
+  "file": "plugins/password_gen/plugins/password_gen/password_gen.py",
   "signature": "",
   "compatibility": {
     "min_starsea_version": "1.0.0",
     "max_starsea_version": "2.x.x"
   },
   "author": "蓝域星河",
-  "license": "专有许可证"
+  "license": "专有许可证",
+  "path": "plugins/password_gen"
 }

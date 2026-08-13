@@ -5,7 +5,7 @@
   "type": "app",
   "description": "ASCII 图片查看、幻灯片播放",
   "entry": "gallery_menu",
-  "file": "image_viewer.py",
+  "file": "apps/gallery/apps/gallery/image_viewer.py",
   "signature": "",
   "compatibility": {
     "min_starsea_version": "1.0.0",
@@ -16,5 +16,6 @@
   "icon": "image",
   "categories": [
     "娱乐"
-  ]
+  ],
+  "path": "apps/gallery"
 }

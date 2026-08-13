@@ -10,7 +10,7 @@
       "type": "app",
       "description": "交互式还原点与版本化备份",
       "entry": "backup_wizard_menu",
-      "file": "backup_wizard.py",
+      "file": "apps/backupwiz/backup_wizard.py",
       "signature": "",
       "compatibility": {
         "min_starsea_version": "1.0.0",
@@ -31,7 +31,7 @@
       "type": "app",
       "description": "支持基本运算、历史记录、单位转换",
       "entry": "calculator_menu",
-      "file": "calculator.py",
+      "file": "apps/calcapp/calculator.py",
       "signature": "",
       "compatibility": {
         "min_starsea_version": "1.0.0",
@@ -52,7 +52,7 @@
       "type": "app",
       "description": "查看日历、添加事件、今日提醒",
       "entry": "calendar_menu",
-      "file": "calendar.py",
+      "file": "apps/calendar/calendar.py",
       "signature": "",
       "compatibility": {
         "min_starsea_version": "1.0.0",
@@ -73,7 +73,7 @@
       "type": "app",
       "description": "内置 300+ 技术单词",
       "entry": "dictionary_menu",
-      "file": "dictionary.py",
+      "file": "apps/dict/dictionary.py",
       "signature": "",
       "compatibility": {
         "min_starsea_version": "1.0.0",
@@ -94,7 +94,7 @@
       "type": "app",
       "description": "编辑虚拟/真实文件，支持插入、删除、替换行",
       "entry": "text_editor_menu",
-      "file": "text_editor.py",
+      "file": "apps/editor/text_editor.py",
       "signature": "",
       "compatibility": {
         "min_starsea_version": "1.0.0",
@@ -115,7 +115,7 @@
       "type": "app",
       "description": "管理虚拟文件系统，支持树状浏览、搜索、批量操作",
       "entry": "file_manager_menu",
-      "file": "file_manager.py",
+      "file": "apps/filemgr/file_manager.py",
       "signature": "",
       "compatibility": {
         "min_starsea_version": "1.0.0",
@@ -136,7 +136,7 @@
       "type": "app",
       "description": "ASCII 图片查看、幻灯片播放",
       "entry": "gallery_menu",
-      "file": "image_viewer.py",
+      "file": "apps/gallery/image_viewer.py",
       "signature": "",
       "compatibility": {
         "min_starsea_version": "1.0.0",
@@ -157,7 +157,7 @@
       "type": "app",
       "description": "快速笔记，基于 VFS 持久化",
       "entry": "note_menu",
-      "file": "note.py",
+      "file": "apps/note/note.py",
       "signature": "",
       "compatibility": {
         "min_starsea_version": "1.0.0",
@@ -178,7 +178,7 @@
       "type": "app",
       "description": "实时资源监控与进程管理",
       "entry": "watch_menu",
-      "file": "system_watcher.py",
+      "file": "apps/syswatch/system_watcher.py",
       "signature": "",
       "compatibility": {
         "min_starsea_version": "1.0.0",
@@ -201,7 +201,7 @@
       "type": "plugin",
       "description": "50+ 条程序员笑话",
       "entry": "",
-      "file": "joke_plugin.py",
+      "file": "plugins/joke_plugin/joke_plugin.py",
       "signature": "",
       "compatibility": {
         "min_starsea_version": "1.0.0",
@@ -218,7 +218,7 @@
       "type": "plugin",
       "description": "生成随机高强度密码",
       "entry": "",
-      "file": "password_gen.py",
+      "file": "plugins/password_gen/password_gen.py",
       "signature": "",
       "compatibility": {
         "min_starsea_version": "1.0.0",
@@ -235,7 +235,7 @@
       "type": "plugin",
       "description": "50+ 条名人名言",
       "entry": "",
-      "file": "quote_plugin.py",
+      "file": "plugins/quote_plugin/quote_plugin.py",
       "signature": "",
       "compatibility": {
         "min_starsea_version": "1.0.0",
@@ -252,7 +252,7 @@
       "type": "plugin",
       "description": "显示操作系统、磁盘、网络等信息",
       "entry": "",
-      "file": "sysinfo_plus.py",
+      "file": "plugins/sysinfo_plus/sysinfo_plus.py",
       "signature": "",
       "compatibility": {
         "min_starsea_version": "1.0.0",
@@ -271,7 +271,7 @@
       "type": "experimental",
       "description": "基于本地模型的代码补全建议，仅支持 Python",
       "entry": "main:run",
-      "file": "ai_completion.zip",
+      "file": "experimental/ai_completion/ai_completion.zip",
       "signature": "",
       "compatibility": {
         "min_starsea_version": "2.3.0",
@@ -290,7 +290,7 @@
       "type": "experimental",
       "description": "批量压缩图片，支持 JPG/PNG 格式",
       "entry": "main:run",
-      "file": "image_optimizer.zip",
+      "file": "experimental/image_optimizer/image_optimizer.zip",
       "signature": "",
       "compatibility": {
         "min_starsea_version": "2.3.0",

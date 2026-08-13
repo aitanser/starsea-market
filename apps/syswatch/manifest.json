@@ -5,7 +5,7 @@
   "type": "app",
   "description": "实时资源监控与进程管理",
   "entry": "watch_menu",
-  "file": "system_watcher.py",
+  "file": "apps/syswatch/apps/syswatch/system_watcher.py",
   "signature": "",
   "compatibility": {
     "min_starsea_version": "1.0.0",
@@ -16,5 +16,6 @@
   "icon": "monitor",
   "categories": [
     "系统工具"
-  ]
+  ],
+  "path": "apps/syswatch"
 }

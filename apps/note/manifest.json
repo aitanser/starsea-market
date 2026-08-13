@@ -5,7 +5,7 @@
   "type": "app",
   "description": "快速笔记，基于 VFS 持久化",
   "entry": "note_menu",
-  "file": "note.py",
+  "file": "apps/note/apps/note/note.py",
   "signature": "",
   "compatibility": {
     "min_starsea_version": "1.0.0",
@@ -16,5 +16,6 @@
   "icon": "note",
   "categories": [
     "办公"
-  ]
+  ],
+  "path": "apps/note"
 }
