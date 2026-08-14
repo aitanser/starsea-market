@@ -9,7 +9,7 @@
   "signature": "",
   "compatibility": {
     "min_starsea_version": "2.3.0",
-    "max_starsea_version": "2.x.x"
+    "max_starsea_version": "2.x"
   },
   "author": "蓝域星河研究院",
   "license": "内部实验许可证",

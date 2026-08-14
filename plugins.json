@@ -127,7 +127,7 @@
       "version": "0.1.0",
       "desc": "基于本地模型的代码补全建议，仅支持 Python",
       "type": "experimental",
-      "file": "ai_completion.zip",
+      "file": "experimental/ai_completion/ai_completion.zip",
       "signature": "",
       "stability": "preview"
     },
@@ -136,7 +136,7 @@
       "version": "0.1.0",
       "desc": "批量压缩图片，支持 JPG/PNG 格式",
       "type": "experimental",
-      "file": "image_optimizer.zip",
+      "file": "experimental/image_optimizer/image_optimizer.zip",
       "signature": "",
       "stability": "preview"
     }
