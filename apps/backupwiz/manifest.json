@@ -6,7 +6,7 @@
   "description": "交互式还原点与版本化备份",
   "entry": "backup_wizard_menu",
   "file": "apps/backupwiz/apps/backupwiz/backup_wizard.py",
-  "signature": "",
+  "signature": "fa785438ac7b3ee9af85556c50fcea2801356bffd9448addb79dbc8fb06d17c8",
   "compatibility": {
     "min_starsea_version": "1.0.0",
     "max_starsea_version": "2.x"

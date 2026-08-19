@@ -6,7 +6,7 @@
   "description": "实时资源监控与进程管理",
   "entry": "watch_menu",
   "file": "apps/syswatch/apps/syswatch/system_watcher.py",
-  "signature": "",
+  "signature": "ce5c185db19304d1865a890f316ed675f93c0207a0f4e99bcf4930dcfa702e36",
   "compatibility": {
     "min_starsea_version": "1.0.0",
     "max_starsea_version": "2.x"

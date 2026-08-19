@@ -6,7 +6,7 @@
   "description": "批量压缩图片，支持 JPG/PNG 格式",
   "entry": "main:run",
   "file": "experimental/image_optimizer/experimental/image_optimizer/image_optimizer.zip",
-  "signature": "",
+  "signature": "9c09c71c8e2e144c5ec62aeb2059f28f64f5e4ead9ee9bec51d0482725127e20",
   "compatibility": {
     "min_starsea_version": "2.3.0",
     "max_starsea_version": "2.x"

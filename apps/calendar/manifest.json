@@ -6,7 +6,7 @@
   "description": "查看日历、添加事件、今日提醒",
   "entry": "calendar_menu",
   "file": "apps/calendar/apps/calendar/calendar.py",
-  "signature": "",
+  "signature": "7c3e2030132a8a808e42d6a6773d833fca3709d6d08d691a7590bea53f823368",
   "compatibility": {
     "min_starsea_version": "1.0.0",
     "max_starsea_version": "2.x"

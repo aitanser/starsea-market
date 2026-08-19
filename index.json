@@ -11,7 +11,7 @@
       "description": "交互式还原点与版本化备份",
       "entry": "backup_wizard_menu",
       "file": "apps/backupwiz/backup_wizard.py",
-      "signature": "",
+      "signature": "fa785438ac7b3ee9af85556c50fcea2801356bffd9448addb79dbc8fb06d17c8",
       "compatibility": {
         "min_starsea_version": "1.0.0",
         "max_starsea_version": "2.x"
@@ -32,7 +32,7 @@
       "description": "支持基本运算、历史记录、单位转换",
       "entry": "calculator_menu",
       "file": "apps/calcapp/calculator.py",
-      "signature": "",
+      "signature": "bf0de0b0517945048f6fada84208bffbda8792a14edcb1b456066f915d8edf2f",
       "compatibility": {
         "min_starsea_version": "1.0.0",
         "max_starsea_version": "2.x"
@@ -53,7 +53,7 @@
       "description": "查看日历、添加事件、今日提醒",
       "entry": "calendar_menu",
       "file": "apps/calendar/calendar.py",
-      "signature": "",
+      "signature": "7c3e2030132a8a808e42d6a6773d833fca3709d6d08d691a7590bea53f823368",
       "compatibility": {
         "min_starsea_version": "1.0.0",
         "max_starsea_version": "2.x"
@@ -74,7 +74,7 @@
       "description": "内置 300+ 技术单词",
       "entry": "dictionary_menu",
       "file": "apps/dict/dictionary.py",
-      "signature": "",
+      "signature": "2eb2f6a5f478b20da53fd6755fb920a4131537fc41dcded1dfb1a8dc4f8a68f6",
       "compatibility": {
         "min_starsea_version": "1.0.0",
         "max_starsea_version": "2.x"
@@ -95,7 +95,7 @@
       "description": "编辑虚拟/真实文件，支持插入、删除、替换行",
       "entry": "text_editor_menu",
       "file": "apps/editor/text_editor.py",
-      "signature": "",
+      "signature": "c30ab019d719e446afe90f28afb50d88b31f4b039015087241d2cdeb0f00b594",
       "compatibility": {
         "min_starsea_version": "1.0.0",
         "max_starsea_version": "2.x"
@@ -116,7 +116,7 @@
       "description": "管理虚拟文件系统，支持树状浏览、搜索、批量操作",
       "entry": "file_manager_menu",
       "file": "apps/filemgr/file_manager.py",
-      "signature": "",
+      "signature": "31ea628e951aee249199c25b499dce0f32599ea45e5207fa933047f557e285ae",
       "compatibility": {
         "min_starsea_version": "1.0.0",
         "max_starsea_version": "2.x"
@@ -137,7 +137,7 @@
       "description": "ASCII 图片查看、幻灯片播放",
       "entry": "gallery_menu",
       "file": "apps/gallery/image_viewer.py",
-      "signature": "",
+      "signature": "664a29aefb746748325c46ec95e803d5b0fd6549d9618d1e97155593b57e5abc",
       "compatibility": {
         "min_starsea_version": "1.0.0",
         "max_starsea_version": "2.x"
@@ -158,7 +158,7 @@
       "description": "快速笔记，基于 VFS 持久化",
       "entry": "note_menu",
       "file": "apps/note/note.py",
-      "signature": "",
+      "signature": "9aa4044f03413b2c073029cbce862f917561bd6850e3bcaeee4b89776971d270",
       "compatibility": {
         "min_starsea_version": "1.0.0",
         "max_starsea_version": "2.x"
@@ -179,7 +179,7 @@
       "description": "实时资源监控与进程管理",
       "entry": "watch_menu",
       "file": "apps/syswatch/system_watcher.py",
-      "signature": "",
+      "signature": "ce5c185db19304d1865a890f316ed675f93c0207a0f4e99bcf4930dcfa702e36",
       "compatibility": {
         "min_starsea_version": "1.0.0",
         "max_starsea_version": "2.x"
@@ -202,7 +202,7 @@
       "description": "50+ 条程序员笑话",
       "entry": "",
       "file": "plugins/joke_plugin/joke_plugin.py",
-      "signature": "",
+      "signature": "0f44cafe9259422a355af90ebfb6e35a878cee923a32890a841535ecdddaf462",
       "compatibility": {
         "min_starsea_version": "1.0.0",
         "max_starsea_version": "2.x"
@@ -219,7 +219,7 @@
       "description": "生成随机高强度密码",
       "entry": "",
       "file": "plugins/password_gen/password_gen.py",
-      "signature": "",
+      "signature": "79fcadaaf440815e6955a17ad64655ee4406c223aadd04adc7981f3814d786ac",
       "compatibility": {
         "min_starsea_version": "1.0.0",
         "max_starsea_version": "2.x"
@@ -236,7 +236,7 @@
       "description": "50+ 条名人名言",
       "entry": "",
       "file": "plugins/quote_plugin/quote_plugin.py",
-      "signature": "",
+      "signature": "da78e1edfdd0ac9545a61dc099c6fd7c218cb9c470de80ba3e09ab4cfcf8e869",
       "compatibility": {
         "min_starsea_version": "1.0.0",
         "max_starsea_version": "2.x"
@@ -253,7 +253,7 @@
       "description": "显示操作系统、磁盘、网络等信息",
       "entry": "",
       "file": "plugins/sysinfo_plus/sysinfo_plus.py",
-      "signature": "",
+      "signature": "7a65aa52ed8c3d0450add629f80cb8e2c2959d1bb1e1209bb9b928f8161e5810",
       "compatibility": {
         "min_starsea_version": "1.0.0",
         "max_starsea_version": "2.x"
@@ -271,8 +271,8 @@
       "type": "experimental",
       "description": "基于本地模型的代码补全建议，仅支持 Python",
       "entry": "main:run",
-      "file": "experimental/ai_completion/ai_completion.zip",
-      "signature": "",
+      "file": "experimental/ai_completion.zip",
+      "signature": "98113f0c0d97677253b549ee32df9333a75f01f0cd279341b54fbb0a4c852e97",
       "compatibility": {
         "min_starsea_version": "2.3.0",
         "max_starsea_version": "2.x"
@@ -290,8 +290,8 @@
       "type": "experimental",
       "description": "批量压缩图片，支持 JPG/PNG 格式",
       "entry": "main:run",
-      "file": "experimental/image_optimizer/image_optimizer.zip",
-      "signature": "",
+      "file": "experimental/image_optimizer.zip",
+      "signature": "49ed08a6dc535c28e6782d8fe60da48aabf4a8d7cdd03cb7b54eceee3471937c",
       "compatibility": {
         "min_starsea_version": "2.3.0",
         "max_starsea_version": "2.x"

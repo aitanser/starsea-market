@@ -6,7 +6,7 @@
   "description": "生成随机高强度密码",
   "entry": "",
   "file": "plugins/password_gen/plugins/password_gen/password_gen.py",
-  "signature": "",
+  "signature": "79fcadaaf440815e6955a17ad64655ee4406c223aadd04adc7981f3814d786ac",
   "compatibility": {
     "min_starsea_version": "1.0.0",
     "max_starsea_version": "2.x"

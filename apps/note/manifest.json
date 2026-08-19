@@ -6,7 +6,7 @@
   "description": "快速笔记，基于 VFS 持久化",
   "entry": "note_menu",
   "file": "apps/note/apps/note/note.py",
-  "signature": "",
+  "signature": "9aa4044f03413b2c073029cbce862f917561bd6850e3bcaeee4b89776971d270",
   "compatibility": {
     "min_starsea_version": "1.0.0",
     "max_starsea_version": "2.x"

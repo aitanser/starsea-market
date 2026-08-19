@@ -6,7 +6,7 @@
   "description": "内置 300+ 技术单词",
   "entry": "dictionary_menu",
   "file": "apps/dict/apps/dict/dictionary.py",
-  "signature": "",
+  "signature": "2eb2f6a5f478b20da53fd6755fb920a4131537fc41dcded1dfb1a8dc4f8a68f6",
   "compatibility": {
     "min_starsea_version": "1.0.0",
     "max_starsea_version": "2.x"

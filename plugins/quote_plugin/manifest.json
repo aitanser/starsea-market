@@ -6,7 +6,7 @@
   "description": "50+ 条名人名言",
   "entry": "",
   "file": "plugins/quote_plugin/plugins/quote_plugin/quote_plugin.py",
-  "signature": "",
+  "signature": "da78e1edfdd0ac9545a61dc099c6fd7c218cb9c470de80ba3e09ab4cfcf8e869",
   "compatibility": {
     "min_starsea_version": "1.0.0",
     "max_starsea_version": "2.x"

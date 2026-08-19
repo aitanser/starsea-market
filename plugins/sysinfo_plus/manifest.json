@@ -6,7 +6,7 @@
   "description": "显示操作系统、磁盘、网络等信息",
   "entry": "",
   "file": "plugins/sysinfo_plus/plugins/sysinfo_plus/sysinfo_plus.py",
-  "signature": "",
+  "signature": "7a65aa52ed8c3d0450add629f80cb8e2c2959d1bb1e1209bb9b928f8161e5810",
   "compatibility": {
     "min_starsea_version": "1.0.0",
     "max_starsea_version": "2.x"

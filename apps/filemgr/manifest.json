@@ -6,7 +6,7 @@
   "description": "管理虚拟文件系统，支持树状浏览、搜索、批量操作",
   "entry": "file_manager_menu",
   "file": "apps/filemgr/apps/filemgr/file_manager.py",
-  "signature": "",
+  "signature": "31ea628e951aee249199c25b499dce0f32599ea45e5207fa933047f557e285ae",
   "compatibility": {
     "min_starsea_version": "1.0.0",
     "max_starsea_version": "2.x"

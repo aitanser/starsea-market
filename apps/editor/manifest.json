@@ -6,7 +6,7 @@
   "description": "编辑虚拟/真实文件，支持插入、删除、替换行",
   "entry": "text_editor_menu",
   "file": "apps/editor/apps/editor/text_editor.py",
-  "signature": "",
+  "signature": "c30ab019d719e446afe90f28afb50d88b31f4b039015087241d2cdeb0f00b594",
   "compatibility": {
     "min_starsea_version": "1.0.0",
     "max_starsea_version": "2.x"

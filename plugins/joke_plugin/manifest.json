@@ -6,7 +6,7 @@
   "description": "50+ 条程序员笑话",
   "entry": "",
   "file": "plugins/joke_plugin/plugins/joke_plugin/joke_plugin.py",
-  "signature": "",
+  "signature": "0f44cafe9259422a355af90ebfb6e35a878cee923a32890a841535ecdddaf462",
   "compatibility": {
     "min_starsea_version": "1.0.0",
     "max_starsea_version": "2.x"

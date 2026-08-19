@@ -6,7 +6,7 @@
   "description": "基于本地模型的代码补全建议，仅支持 Python",
   "entry": "main:run",
   "file": "experimental/ai_completion/experimental/ai_completion/ai_completion.zip",
-  "signature": "",
+  "signature": "a79686f2afc6e5b16c74c28f22cc4d535e7d2677a6f93e91ae8373f1c5c08f67",
   "compatibility": {
     "min_starsea_version": "2.3.0",
     "max_starsea_version": "2.x"
