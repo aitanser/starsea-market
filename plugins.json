@@ -8,7 +8,7 @@
       "command": "backupwiz",
       "entry": "backup_wizard_menu",
       "file": "apps/backupwiz/backup_wizard.py",
-      "signature": ""
+      "signature": "fa785438ac7b3ee9af85556c50fcea2801356bffd9448addb79dbc8fb06d17c8"
     },
     "calcapp": {
       "name": "科学计算器",
@@ -18,7 +18,7 @@
       "command": "calcapp",
       "entry": "calculator_menu",
       "file": "apps/calcapp/calculator.py",
-      "signature": ""
+      "signature": "bf0de0b0517945048f6fada84208bffbda8792a14edcb1b456066f915d8edf2f"
     },
     "calendar": {
       "name": "日历与提醒",
@@ -28,7 +28,7 @@
       "command": "calendar",
       "entry": "calendar_menu",
       "file": "apps/calendar/calendar.py",
-      "signature": ""
+      "signature": "7c3e2030132a8a808e42d6a6773d833fca3709d6d08d691a7590bea53f823368"
     },
     "dict": {
       "name": "星海词典",
@@ -38,7 +38,7 @@
       "command": "dict",
       "entry": "dictionary_menu",
       "file": "apps/dict/dictionary.py",
-      "signature": ""
+      "signature": "2eb2f6a5f478b20da53fd6755fb920a4131537fc41dcded1dfb1a8dc4f8a68f6"
     },
     "editor": {
       "name": "文本编辑器",
@@ -48,7 +48,7 @@
       "command": "editor",
       "entry": "text_editor_menu",
       "file": "apps/editor/text_editor.py",
-      "signature": ""
+      "signature": "c30ab019d719e446afe90f28afb50d88b31f4b039015087241d2cdeb0f00b594"
     },
     "filemgr": {
       "name": "文件管理器",
@@ -58,7 +58,7 @@
       "command": "filemgr",
       "entry": "file_manager_menu",
       "file": "apps/filemgr/file_manager.py",
-      "signature": ""
+      "signature": "31ea628e951aee249199c25b499dce0f32599ea45e5207fa933047f557e285ae"
     },
     "gallery": {
       "name": "图库",
@@ -68,7 +68,7 @@
       "command": "gallery",
       "entry": "gallery_menu",
       "file": "apps/gallery/image_viewer.py",
-      "signature": ""
+      "signature": "664a29aefb746748325c46ec95e803d5b0fd6549d9618d1e97155593b57e5abc"
     },
     "note": {
       "name": "星海便签",
@@ -78,7 +78,7 @@
       "command": "note",
       "entry": "note_menu",
       "file": "apps/note/note.py",
-      "signature": ""
+      "signature": "9aa4044f03413b2c073029cbce862f917561bd6850e3bcaeee4b89776971d270"
     },
     "syswatch": {
       "name": "系统监视器",
@@ -88,7 +88,7 @@
       "command": "syswatch",
       "entry": "watch_menu",
       "file": "apps/syswatch/system_watcher.py",
-      "signature": ""
+      "signature": "ce5c185db19304d1865a890f316ed675f93c0207a0f4e99bcf4930dcfa702e36"
     },
     "joke_plugin": {
       "name": "随机笑话",
@@ -96,7 +96,7 @@
       "desc": "50+ 条程序员笑话",
       "type": "plugin",
       "file": "plugins/joke_plugin/joke_plugin.py",
-      "signature": ""
+      "signature": "0f44cafe9259422a355af90ebfb6e35a878cee923a32890a841535ecdddaf462"
     },
     "password_gen": {
       "name": "密码生成器",
@@ -104,7 +104,7 @@
       "desc": "生成随机高强度密码",
       "type": "plugin",
       "file": "plugins/password_gen/password_gen.py",
-      "signature": ""
+      "signature": "79fcadaaf440815e6955a17ad64655ee4406c223aadd04adc7981f3814d786ac"
     },
     "quote_plugin": {
       "name": "名言警句",
@@ -112,7 +112,7 @@
       "desc": "50+ 条名人名言",
       "type": "plugin",
       "file": "plugins/quote_plugin/quote_plugin.py",
-      "signature": ""
+      "signature": "da78e1edfdd0ac9545a61dc099c6fd7c218cb9c470de80ba3e09ab4cfcf8e869"
     },
     "sysinfo_plus": {
       "name": "增强系统信息",
@@ -120,7 +120,7 @@
       "desc": "显示操作系统、磁盘、网络等信息",
       "type": "plugin",
       "file": "plugins/sysinfo_plus/sysinfo_plus.py",
-      "signature": ""
+      "signature": "7a65aa52ed8c3d0450add629f80cb8e2c2959d1bb1e1209bb9b928f8161e5810"
     },
     "ai_completion": {
       "name": "AI 代码补全 (实验性)",
