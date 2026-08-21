@@ -14,6 +14,6 @@
   "author": "蓝域星河研究院",
   "license": "内部实验许可证",
   "stability": "preview",
-  "download_url": "https://your-repo/experimental/image_optimizer.zip",
+  "download_url": "https://raw.githubusercontent.com/aitanser/starsea-market/main/experimental/image_optimizer.zip",
   "path": "experimental/image_optimizer"
 }

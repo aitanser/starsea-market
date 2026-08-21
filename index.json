@@ -263,44 +263,34 @@
       "path": "plugins\\sysinfo_plus"
     }
   ],
-  "experimental": [
-    {
+  "experimental": {
+    "ai_completion": {
       "id": "ai_completion",
       "name": "AI 代码补全 (实验性)",
       "version": "0.1.0",
-      "type": "experimental",
+      "stability": "preview",
       "description": "基于本地模型的代码补全建议，仅支持 Python",
       "entry": "main:run",
-      "file": "experimental/ai_completion.zip",
+      "download_url": "https://raw.githubusercontent.com/aitanser/starsea-market/main/experimental/ai_completion.zip",
       "signature": "98113f0c0d97677253b549ee32df9333a75f01f0cd279341b54fbb0a4c852e97",
       "compatibility": {
         "min_starsea_version": "2.3.0",
         "max_starsea_version": "2.x"
-      },
-      "author": "蓝域星河研究院",
-      "license": "内部实验许可证",
-      "stability": "preview",
-      "download_url": "https://your-repo/experimental/ai_completion.zip",
-      "path": "experimental\\ai_completion"
+      }
     },
-    {
+    "image_optimizer": {
       "id": "image_optimizer",
       "name": "图片压缩器 (实验性)",
       "version": "0.1.0",
-      "type": "experimental",
+      "stability": "preview",
       "description": "批量压缩图片，支持 JPG/PNG 格式",
       "entry": "main:run",
-      "file": "experimental/image_optimizer.zip",
+      "download_url": "https://raw.githubusercontent.com/aitanser/starsea-market/main/experimental/image_optimizer.zip",
       "signature": "49ed08a6dc535c28e6782d8fe60da48aabf4a8d7cdd03cb7b54eceee3471937c",
       "compatibility": {
         "min_starsea_version": "2.3.0",
         "max_starsea_version": "2.x"
-      },
-      "author": "蓝域星河研究院",
-      "license": "内部实验许可证",
-      "stability": "preview",
-      "download_url": "https://your-repo/experimental/image_optimizer.zip",
-      "path": "experimental\\image_optimizer"
+      }
     }
-  ]
+  }
 }

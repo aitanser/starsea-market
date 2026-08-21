@@ -128,8 +128,9 @@
       "desc": "基于本地模型的代码补全建议，仅支持 Python",
       "type": "experimental",
       "file": "experimental/ai_completion/ai_completion.zip",
-      "signature": "",
-      "stability": "preview"
+      "signature": "98113f0c0d97677253b549ee32df9333a75f01f0cd279341b54fbb0a4c852e97",
+      "stability": "preview",
+      "download_url": "https://raw.githubusercontent.com/aitanser/starsea-market/main/experimental/ai_completion.zip"
     },
     "image_optimizer": {
       "name": "图片压缩器 (实验性)",
@@ -137,8 +138,9 @@
       "desc": "批量压缩图片，支持 JPG/PNG 格式",
       "type": "experimental",
       "file": "experimental/image_optimizer/image_optimizer.zip",
-      "signature": "",
-      "stability": "preview"
+      "signature": "49ed08a6dc535c28e6782d8fe60da48aabf4a8d7cdd03cb7b54eceee3471937c",
+      "stability": "preview",
+      "download_url": "https://raw.githubusercontent.com/aitanser/starsea-market/main/experimental/image_optimizer.zip"
     }
   }
 }
